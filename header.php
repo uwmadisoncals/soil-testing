@@ -134,6 +134,12 @@ var templateUrl = '<?php home_url(); ?>';
 				<?php 
 					$mod = get_theme_mod( 'soilTesting_options_id' );
 
+					if($mod != 0){
+						?>
+						<div class="address" style="padding-top:300px;"><?php echo $mod; ?></div>
+						<?php
+					}
+
 					$args = array( 'post_type' => 'headerslides', 'posts_per_page' => 10 );
 					$loop = new WP_Query( $args );
 					
