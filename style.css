@@ -18,3 +18,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
 @import url("../madisonwp2015/style.css");
+
+div.address{
+	background-color:#B22127;
+	padding:.8em;
+	display:block;
+	position: absolute;
+	width:300px;
+	height:150px;
+	color:white;
+	bottom:0;
+	right:0;
+	z-index:10;
+}
