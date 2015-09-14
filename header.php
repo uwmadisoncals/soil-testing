@@ -136,7 +136,7 @@ var templateUrl = '<?php home_url(); ?>';
 
 					if($mod != 0){
 						?>
-						<div class="address"><?php echo $mod; ?></div>
+						<div class="address"><div class="address_title">Contact & location:</div><?php echo $mod; ?></div>
 						<?php
 					}
 
